@@ -1,0 +1,19 @@
+
+{
+  "lesson_id": "micro_01",
+  "concept": "viscosity_fundamentals",
+  "misconceptions": {
+    "density": {
+      "keywords": ["heavy", "mass", "weight", "gravity"],
+      "hint": "If we had a very light plastic ball in honey, would it still move slowly? Is it the weight, or the 'stickiness' of the fluid layers?"
+    },
+    "external_friction": {
+      "keywords": ["walls", "glass", "container", "surface"],
+      "hint": "If the container was as wide as an ocean, would the honey still flow slowly in the middle? Does the resistance come from the edge, or from the fluid itself?"
+    }
+  },
+  "reveal_analogy": {
+    "name": "Card Deck",
+    "text": "Think of the fluid as a stack of cards. When you push the top card, the 'friction' between the cards is what we call viscosity."
+  }
+}

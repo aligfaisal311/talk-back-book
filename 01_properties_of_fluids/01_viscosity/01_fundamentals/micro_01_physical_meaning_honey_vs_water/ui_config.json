@@ -1,0 +1,13 @@
+
+{
+  "steps_enabled": ["HOOK", "EXPLORATION", "THEORY", "CHALLENGE"],
+  "simulation_type": "shear_flow",
+  "initial_viscosity": 0.8,
+  "locking": {
+    "require_hook_success": true,
+    "max_attempts_before_reveal": 3
+  },
+  "navigation": {
+    "next_path": "01_properties_of_fluids/01_viscosity/01_fundamentals/micro_02_newtons_law_of_viscosity"
+  }
+}

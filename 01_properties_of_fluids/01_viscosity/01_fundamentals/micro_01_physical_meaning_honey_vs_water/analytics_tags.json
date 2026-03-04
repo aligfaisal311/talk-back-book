@@ -1,0 +1,10 @@
+
+{
+  "competencies": [
+    "FLUID_PROP_001_INTUITION",
+    "FLUID_PROP_001_NO_SLIP",
+    "FLUID_PROP_001_VISCOSITY_DEFINITION"
+  ],
+  "difficulty": "introductory",
+  "estimated_time_minutes": 8
+}
