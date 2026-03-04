@@ -9,6 +9,9 @@ import Sidebar from './components/Sidebar';
 import { CURRICULUM } from './curriculum';
 import { MICRO_CONTENT as MICRO_01 } from './01_properties_of_fluids/01_viscosity/01_fundamentals/micro_01_physical_meaning_honey_vs_water/content';
 import { MICRO_02_DATA as MICRO_02 } from './01_properties_of_fluids/01_viscosity/01_fundamentals/micro_02_newtons_law_of_viscosity/metadata';
+import { MICRO_03_DATA as MICRO_03 } from './01_properties_of_fluids/01_viscosity/01_fundamentals/micro_03_dynamic_vs_kinematic_viscosity/metadata';
+import { MICRO_04_DATA as MICRO_04 } from './01_properties_of_fluids/01_viscosity/01_fundamentals/micro_04_temperature_effects_liquids_vs_gases/metadata';
+import { MICRO_05_DATA as MICRO_05 } from './01_properties_of_fluids/01_viscosity/01_fundamentals/micro_05_non_newtonian_fluids/metadata';
 
 const App: React.FC = () => {
   const [currentStep, setCurrentStep] = useState<Step>(Step.HOOK);
@@ -30,6 +33,9 @@ const App: React.FC = () => {
   const lessonData: LessonContent | null = useMemo(() => {
     if (activeLessonPath.includes('micro_01')) return MICRO_01 as LessonContent;
     if (activeLessonPath.includes('micro_02')) return MICRO_02 as LessonContent;
+    if (activeLessonPath.includes('micro_03')) return MICRO_03 as LessonContent;
+    if (activeLessonPath.includes('micro_04')) return MICRO_04 as LessonContent;
+    if (activeLessonPath.includes('micro_05')) return MICRO_05 as LessonContent;
     return null;
   }, [activeLessonPath]);
 

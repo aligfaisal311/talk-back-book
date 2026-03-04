@@ -1,5 +1,5 @@
 
-import { LessonContent } from '../../../../../types';
+import { LessonContent } from '../../../../types';
 
 export const MICRO_CONTENT: LessonContent = {
   metadata: {
