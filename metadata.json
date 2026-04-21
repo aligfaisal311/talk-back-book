@@ -1,5 +1,5 @@
 {
-  "name": "Talk-Back Book: Viscosity",
-  "description": "An interactive engineering textbook chapter on Viscosity and Fluid Mechanics using Socratic AI coaching and real-time simulations.",
+  "name": "Talk-Back Book: fluid mechanics",
+  "description": "A full-stack SaaS application for interactive engineering education. Features include adaptive difficulty levels, real-time progress tracking, and Socratic AI coaching.",
   "requestFramePermissions": []
 }

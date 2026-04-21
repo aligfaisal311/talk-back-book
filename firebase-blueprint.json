@@ -1,0 +1,32 @@
+{
+  "entities": {
+    "StudentProgress": {
+      "title": "Student Progress",
+      "description": "Tracks a student's progress through the curriculum.",
+      "type": "object",
+      "properties": {
+        "completedLessons": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of lesson paths completed by the student."
+        },
+        "currentLevel": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"],
+          "description": "The student's current difficulty level."
+        },
+        "lastAccessed": {
+          "type": "number",
+          "description": "Timestamp of the last time the student accessed the app."
+        }
+      },
+      "required": ["completedLessons", "currentLevel", "lastAccessed"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/data/progress": {
+      "schema": "StudentProgress",
+      "description": "Stores the progress for a specific user."
+    }
+  }
+}
